@@ -1,7 +1,8 @@
 import './App.css'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Policy from './components/Policy'
+import Footer from './components/Layout/Footer/Footer'
+import Header from './components/Layout/Header/Header'
+import Policy from './components/Layout/Policy/Policy'
+import Slider from './components/Layout/Slider/Slider'
 
 function App() {
   
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
     <Header></Header>
-    <h1>hello</h1>
+    <Slider></Slider>
     <Policy></Policy>
     <Footer></Footer>
     </>
