@@ -1,6 +1,7 @@
 import './App.css'
 import Blogs from './components/Blogs/Blogs'
 import Brands from './components/Brands/Brands'
+import CampaignSingle from './components/CampaignSingle/CampaignSingle'
 import Campaigns from './components/Campaigns/Campaigns'
 import Categories from './components/Categories/Categories'
 import Footer from './components/Layout/Footer/Footer'
@@ -21,6 +22,7 @@ function App() {
     <Campaigns></Campaigns>
     <Blogs></Blogs>
     <Brands></Brands>
+    <CampaignSingle></CampaignSingle>
     <Policy></Policy>
     <Footer></Footer>
     </>
