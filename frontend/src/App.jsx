@@ -1,11 +1,12 @@
 import './App.css'
-import Campaigns from './components/Layout/Campaigns/Campaigns'
-import Categories from './components/Layout/Categories/Categories'
+import Blogs from './components/Blogs/Blogs'
+import Campaigns from './components/Campaigns/Campaigns'
+import Categories from './components/Categories/Categories'
 import Footer from './components/Layout/Footer/Footer'
 import Header from './components/Layout/Header/Header'
 import Policy from './components/Layout/Policy/Policy'
-import Products from './components/Layout/Products/Products'
-import Slider from './components/Layout/Slider/Slider'
+import Products from './components/Products/Products'
+import Slider from './components/Slider/Slider'
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
     <Categories></Categories>
     <Products></Products>
     <Campaigns></Campaigns>
+    <Blogs></Blogs>
     <Policy></Policy>
     <Footer></Footer>
     </>
